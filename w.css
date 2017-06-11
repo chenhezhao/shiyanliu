@@ -1,0 +1,51 @@
+#menu {
+	height: 25px;
+	width: 535px;
+	position: relative;
+	margin: 50px 0px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+}
+#menu ul li {
+	height: 25px;
+	width: 104px;
+	border: 1px solid #CCC;
+	float: left;
+}
+#menu ul li a {
+	display: block;
+	height: 25px;
+	width: 104px;
+	font: 14px/25px "黑体";
+	color: #333;
+	background: #69F;
+	text-align: center;
+	text-decoration: none;
+}
+#menu ul li a:hover {
+	font-weight: bold;
+	color: #F60;
+	background: #93B6FF;
+}
+#menu ul li ul {
+	display: none;
+	margin: 0px;
+	width: 105px;
+}
+#menu ul li:hover ul {
+	display: block;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+#menu ul li:hover ul li a {
+	background: #C8DAFF;
+	font-size: 12px;
+}
+#menu ul li:hover ul li a:hover {
+	background: #86ADFF;
+	color: #000066;
+}
