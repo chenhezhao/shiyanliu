@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.menu ul{
+	list-style-type:none;
+	width:1000px;
+	height:60px;
+	background:url("images/menu_bg.png") no-repeat;
+}
+.menu ul li{
+	text-align:center;
+	float:left;
+	width:150px;
+	height:60px;
+	background:url("images/line.png") no-repeat right;
+	font-family:"宋体";
+	font-size:16px;
+	margin:0px;
+}
+.menu ul li a{
+	display:block;
+	text-decoration:none;
+	line-height:60px;
+}
+.menu ul li a:hover{
+	background:url("images/menu_bg1.png") no-repeat;
+	background-position:center;
+}
